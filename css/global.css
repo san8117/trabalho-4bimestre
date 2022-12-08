@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+p{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2rem;
+}
+
+h3{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.25rem;
+}

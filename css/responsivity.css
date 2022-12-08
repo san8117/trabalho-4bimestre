@@ -1,0 +1,196 @@
+@media(min-width: 650px){
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav{
+        overflow: visible;
+    }
+
+    header nav a{
+        font-size: 1rem;
+        padding: 1rem
+    }
+
+    header img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    p{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+        width: 100%;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .introducao {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .introducao img {
+        align-items: center;
+        padding-inline: 13vh;
+        width: 90vh;
+        margin-left: 65vh;
+    }
+
+    .introducao img:nth-of-type(4){
+        margin-right: 18rem;
+    }
+
+    .historia{
+        padding-top: 0.5rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 30vh;
+        padding-inline: 4vh;
+    }
+
+    .historia img{
+        width: 86vh;
+        margin: 0 1vh 1vh 0
+    }
+
+    .cultura{
+        padding-left: 4vh;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 80vh;
+    }
+
+    .cultura p {
+        width: 100%;
+        text-align: left;
+        margin-left: -10vh;
+    }
+
+    .cultura h2{
+        text-align: center;
+        margin-left: -10vh;
+    }
+
+    .cultura img{
+        width: 50vh;
+        margin-block: 10vh;
+        margin-right: -50vh;
+    }
+
+    .info_gerais{
+        padding-left: 4vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 90vh;
+    }
+
+    .info_gerais img{
+        width: 60vh;
+        margin-inline: 32.5%;
+        margin-block: 5rem;
+        margin-left: -70vh;
+    }
+
+    .politica{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 40vh;
+        padding-left: 4vh;
+    }
+
+    .politica h2{
+        text-align: center;
+        margin-left: -18vh;
+    }
+
+    
+    .politica p{
+        width: 100%;
+        margin-left: -18vh;
+    }
+    
+
+    .politica img{        
+        width: 60vh;
+        margin-block: 5rem;
+    }
+
+    .pontos_turisticos{
+        padding-inline: 4vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .pontos_turisticos h2{
+        align-items: center;
+    }
+
+    .pontos_turisticos img{
+        width: 70vh;
+        margin-bottom: 5rem;
+    }
+
+    .heddal{
+        display: flex;
+        gap: 110vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heddal img {
+        margin-left: -80vh;
+    }
+
+    .mirante{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+        gap: 40vh;
+        padding-right: 10vh;
+        margin-top: 15vh;
+        align-items: center;
+    }
+
+    .borgund{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40vh;
+        padding-right: 10vh;
+    }
+
+    .criadores{
+        display: flex;
+        gap: 2rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .criadores img{
+        width: 30vh;
+        height: 50vh;
+        margin-block: 7rem;
+    }
+
+    .criadores h3{
+        margin-top: -3rem;
+    }
+}

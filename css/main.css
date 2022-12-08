@@ -1,0 +1,162 @@
+.introducao{
+    display: flex;
+    margin-top: 0.5rem;
+    overflow: scroll;
+}
+
+.introducao img{
+    width: 100%;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 1rem 0.5rem;
+    background: var(--menu-background-color);
+    margin-top: 3rem;
+}
+
+.historia h2 {
+    color:#fff;
+    margin-bottom: 2rem;
+}
+
+
+.historia p {
+    width:96%;
+    text-align: left;
+    color:#fff;
+    margin-bottom: 1rem;
+}
+
+.historia img{
+    width: 20rem;
+    align-items: center;
+}
+
+.cultura {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 2rem 0 1rem 0.5rem;
+}
+
+.cultura h2{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.cultura p{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.cultura img{
+    width: 95%;
+    justify-content: center;
+}
+
+.info_gerais{
+    width: 100%;
+    padding: 2rem 1rem 2rem 0.5rem;
+    background: var(--menu-background-color);
+}
+
+.info_gerais p , .info_gerais h2{
+    color: #fff;
+}
+
+.info_gerais h2{
+    margin-bottom: 1rem;
+}
+
+.info_gerais p{
+    margin-bottom: 1rem;
+}
+
+.info_gerais img{
+    width: 100%;
+}
+
+.politica{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0 0 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.politica img{
+    margin: 1rem 0 1rem 0;
+    width: 95%;
+}
+
+.politica p{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.politica h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pontos_turisticos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0 1rem 0.5rem;
+    margin-bottom: 2rem;
+    background: var(--menu-background-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos_turisticos img{
+    width: 90%;
+    justify-content: center;
+}
+
+.pontos_turisticos h2{
+    margin-bottom: 2rem;
+}
+
+.pontos_turisticos h3{
+    margin: 1rem 0 0.5rem 0; 
+}
+
+.pontos_turisticos p {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.pontos_turisticos p , .pontos_turisticos h2 , .pontos_turisticos h3{
+    color: #fff;
+}
+
+.criadores{
+    margin-left: 0.5rem;
+    display:flex;
+    overflow: scroll;
+    gap: 1.5rem;
+}
+
+.freitas{
+    padding-right: 1rem;
+}
+
+.criadores img {
+    margin-top: 4rem;
+    width: 8rem;
+    height: 12rem;
+    border-radius: 7px;
+}
+
+.criadores h2{
+    position:absolute;
+    text-align: center;
+}
+
+.criadores h3{
+    text-align: center;
+}
